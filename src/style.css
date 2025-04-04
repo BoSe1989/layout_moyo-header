@@ -55,20 +55,10 @@ ul {
   height: 60px;
   display: block;
   align-content: center;
+  text-transform: uppercase;
 }
 
 .is-active::after {
-  content: ''; /* Створення псевдоелемента */
-  position: absolute;
-  bottom: 0; /* Відстань від тексту до лінії */
-  left: 0;
-  width: 100%; /* Лінія охоплює всю ширину тексту */
-  height: 4px; /* Товщина лінії */
-  background-color: #00acdc; /* Колір лінії */
-  border-radius: 2px; /* Скруглені краї радіусом 2 пікселі */
-}
-
-.nav__link:active::after {
   content: ''; /* Створення псевдоелемента */
   position: absolute;
   bottom: 0; /* Відстань від тексту до лінії */
